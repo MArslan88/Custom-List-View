@@ -13,6 +13,7 @@ import androidx.annotation.Nullable;
 
 import java.util.ArrayList;
 
+// step-4
 public class NameAdapter extends ArrayAdapter<NameModel> {
     // invoke the suitable constructor of the ArrayAdapter class
     public NameAdapter(Context context, ArrayList<NameModel> arrayList) {
