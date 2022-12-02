@@ -2,29 +2,29 @@ package com.mhdarslan.listview;
 
 public class NameModel {
     // the resource ID for the imageView
-    private int ivNumbersImageId;
+    private int imageId;
 
     // TextView 1
-    private String mNumberInDigit;
+    private String firstNameText;
 
     // TextView 1
-    private String mNumbersInText;
+    private String secondNameText;
 
-    public NameModel(int ivNumbersImageId, String mNumberInDigit, String mNumbersInText) {
-        this.ivNumbersImageId = ivNumbersImageId;
-        this.mNumberInDigit = mNumberInDigit;
-        this.mNumbersInText = mNumbersInText;
+    public NameModel(int imageId, String firstNameText, String secondNameText) {
+        this.imageId = imageId;
+        this.firstNameText = firstNameText;
+        this.secondNameText = secondNameText;
     }
 
-    public int getIvNumbersImageId() {
-        return ivNumbersImageId;
+    public int getImageId() {
+        return imageId;
     }
 
-    public String getmNumberInDigit() {
-        return mNumberInDigit;
+    public String getFirstNameText() {
+        return firstNameText;
     }
 
-    public String getmNumbersInText() {
-        return mNumbersInText;
+    public String getSecondNameText() {
+        return secondNameText;
     }
 }
